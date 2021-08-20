@@ -1,0 +1,46 @@
+/* 独家提供区域 */
+
+.provide .content {
+    height: 532px;
+}
+
+.provide .content .con-item {
+    height: 532px;
+}
+
+/* 轮播中的每个小盒子 */
+
+.provide .content .con-item .provide-item,
+.guess .content .con-item .provide-item {
+    float: left;
+    width: 170px;
+    height: 220px;
+    margin-right: 20px;
+}
+
+/* 提高图片大小的权重 */
+
+/* .provide .content .con-item  .provide-item img{
+    width: 150px !important;
+    height: 150px !important;
+} */
+
+/*放大镜区域  */
+
+.magnifier-left {
+    width: 340px;
+    height: 500px;
+}
+/* 自定义样式，去层叠插件的样式 */
+.my-magnifier {
+    margin-top: 0;
+    margin-left: 0;
+}
+/* .magnifier-container{
+    width: 340px;
+    height: 410px;
+} */
+.magnifier-right {
+    width: 800px;
+    height: 500px;
+}

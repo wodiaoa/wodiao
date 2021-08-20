@@ -1,0 +1,229 @@
+.phone-num{
+    margin-top: 30px;
+}
+.phone-num span:first-child{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/电话.png") no-repeat;
+    background-size: 100%;
+}
+.phone-num span:last-child{
+    display: inline-block;
+    color: #033;
+    font-size: 14px;
+    position: relative;
+    bottom: 10px;
+    margin-left: 15px;
+}
+.login{
+    margin-top: 15px;
+    height: 600px;
+    background: url("../img/loginbgc.png") no-repeat;
+    background-size: cover;
+}
+.login-box{
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 400px;
+    height: 455px;
+    background-color: rgba(255, 255, 255, .9);
+    position: relative;
+}
+.login-ma-sub{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background: url("../img/login-ma.png") no-repeat;
+    background-size: 100% 100%;
+}
+.login-pwd-sub{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background: url("../img/login-pwd.png") no-repeat;
+    background-size: 100% 100%;
+}
+.login-sub-display-none{
+    display: none;
+}
+.login-box-menu{
+    border-bottom: 1px solid rgba(198, 187, 187, 0.9);
+    box-sizing: border-box;
+    padding: 50px 40px 20px;
+}
+.login-box .login-box-menu span{
+    font-size: 18px;
+    display: inline-block;
+    width: 135px;
+    text-align: center;
+}
+.login-box-menu span:last-child{
+    margin-left: 45px;
+}
+.login-box-menu .login-box-menu-span-active{
+    color: #ff8a00;
+    position: relative;
+}
+.login-box-menu-span-active:after{
+    content: '';
+    width: 135px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    background-color: #ff8a00;
+}
+.login-box-content{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 45px 35px 0;
+}
+.input-user{
+    height: 45px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.input-user input{
+    width: 285px;
+    height: 45px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border: 1px solid #beb5b5;
+    border-right: none;
+    border-radius: 0;
+    opacity: .5;
+}
+.input-user input::placeholder{
+    font-size: 16px;
+    color: #808080;
+}
+.user-photo{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url("../img/2-2登录(账号登录)_03.png");
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.pwd-photo{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    background: url("../img/2-2登录(账号登录)_06.png");
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.login-btn{
+    width: 330px;
+    height: 45px;
+    background-color: #ffa200;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    text-indent: 4em;
+    letter-spacing: 4em;
+    margin-bottom: 25px;
+}
+.user-operate a{
+    display: inline-block;
+    float: right;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #808080;
+}
+.user-operate{
+    margin-bottom: 30px;
+}
+.other-operate a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.other-operate span:last-child{
+    font-size: 12px;
+    color: #808080;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.login-ma-title{
+    width: 160px;
+    margin: 50px auto 40px;
+}
+.login-ma-title span{
+    display: block;
+    width: 160px;
+    height: 45px;
+    background: url("../img/2-1登录(扫码登录)_03.png") no-repeat;
+    background-size: 45px;
+    box-sizing: border-box;
+    padding-left: 60px;
+    font-size: 18px;
+    color: #8f8684;
+}
+.login-ma-body{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: url("../img/ma.png") no-repeat;
+    background-size: 100%;
+    margin: 0 auto 40px;
+}
+.login-ma-foot{
+    display: block;
+    width: 150px;
+    font-size: 18px;
+    color: #808080;
+    margin: 0 auto;
+}
+.input-user-phone input{
+    width: 200px;
+    height: 45px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border: 1px solid #beb5b5;
+    border-right: none;
+    border-radius: 0;
+    opacity: .5;
+}
+.input-user-phone{
+    position: relative;
+    margin-bottom: 30px;
+}
+.user-phone{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 130px;
+    height: 45px;
+    background-color: #ff8a00;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.login-box-display-none{
+    display: none;
+}
+.login-content-display-none{
+    display: none;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,472 @@
+.banner{
+    height: 470px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+.banner .banner-children{
+    width: 100%;
+    height: 470px;
+    background: url("../img/mooncake.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-text{
+    width: 270px;
+    height: 395px;
+    margin-left: 40px;
+    margin-top: 35px;
+    box-sizing: border-box;
+    padding: 14px 20px 25px;
+    background-color: rgba(10, 200, 230, .5);
+}
+.banner-text h2{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: gold;
+}
+.banner-text-top{
+    border-bottom: 1px dashed #fff;
+}
+.banner-text-top h3{
+    color: #ffff00;
+    font-size: 16px;
+}
+.banner-text-top p{
+    margin-left: 10px;
+    width: 205px;;
+    box-sizing: border-box;
+    padding: 7px 10px 11px;
+}
+.banner-text-top a{
+    display: inline-block;
+    font-size: 14px;
+    color: #f7ff00;
+    line-height: 22px;
+    margin-right: 10px;
+}
+.moon-zone h2{
+    line-height: 40px;
+    color: gold;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.moon-zone-left{
+    width: 450px;
+    box-sizing: border-box;
+    padding: 40px 0;
+    background-color: #fff;
+}
+.moon-zone-left p{
+    width: 450px;
+    height: 350px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #ccc;
+}
+.moon-zone-left img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 30px auto;
+}
+.moon-zone-left span{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    line-height: 40px;
+ }
+.moon-zone-right{
+    width: 700px;
+    box-sizing: border-box;
+    padding: 20px 0;
+    background-color: #fff;
+}
+.moon-zone-right a{
+    display: inline-block;
+    float: left;
+}
+.moon-zone-right img{
+    width: 190px;
+    height: 190px;
+    margin: 0 20px;
+}
+
+.moon-zone-right span.moon-cake{
+    color: #333;
+}
+.moon-zone-right span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: gold;
+}
+.moon-zone-right em, .moon-zone-left em{
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+.moon-zone-left em, .moon-zone-right em{
+    text-decoration: line-through #ccc 3px;
+}
+.moon-zone img{
+    transition: all 500ms;
+}
+.moon-zone img:hover{
+    box-shadow: 0 0 20px #999;
+}
+.hot-sale{
+    margin-top: 55px;
+}
+.hot-sale-title{
+    width: 500px;
+    margin: 0 auto;
+}
+.hot-sale-title:after{
+    content: 'Ladies Fashion Hot Sell';
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #8f8f8f;
+    margin-bottom: 30px;
+}
+.hot-sale-title h2{
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 38px;
+    line-height: 40px;
+    color: #333;
+    font-weight: bold;
+}
+.hot-sale-title-right-img img{
+    transform: rotate(180deg);
+}
+.hot-sale-body-left img{
+    width: 270px;
+    height: 410px;
+}
+.hot-sale-body-left p{
+    position: relative;
+}
+.hot-sale-body-left a{
+    position: absolute;
+    width: 110px;
+    height: 35px;
+    background-color: rgba(210, 210, 210, .5);
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+.hot-sale-body-left a:hover{
+    background-color: rgba(255, 255, 255, .5);
+    color: #ccc;
+}
+a.hot-sale-body-left-one{
+    left: 20px;
+    top: 25px;
+}
+a.hot-sale-body-left-two{
+    left: 140px;
+    top: 25px;
+}
+a.hot-sale-body-left-three{
+    left: 20px;
+    top: 75px;
+}
+a.hot-sale-body-left-fore{
+    left: 140px;
+    top: 75px;
+}
+.hot-sale-body-center{
+    width: 620px;
+    margin-left: 15px;
+}
+.hot-sale-body-center div{
+    width: 310px;
+    height: 205px;
+}
+.hot-sale-body-center div.one img, .hot-sale-body-center div.fore img{
+    width: 310px;
+    height: 205px;
+}
+.hot-sale-body-center div.two, .hot-sale-body-center div.three{
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    background-color: #fff;
+}
+.hot-sale-body-center div.two a.two-one, .hot-sale-body-center div.three a.three-one{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+.hot-sale-body-center div.two a.two-two, .hot-sale-body-center div.three a.three-two{
+    display: inline-block;
+    color: #ef0000;
+    line-height: 24px;
+}
+.hot-sale-body-center div.two img, .hot-sale-body-center div.three img{
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    right: 20px;
+    top: 45px;
+}
+.hot-sale-body-center-money{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.hot-sale-body-center-money span{
+    display: block;
+}
+.hot-sale-body-center-money span:first-child{
+    font-size: 14px;
+}
+.hot-sale-body-center-money span:first-child strong{
+    font-size: 20px;
+}
+.hot-sale-body-center-money span:last-child{
+    font-size: 12px;
+    color: #888;
+    text-decoration: line-through #888;
+}
+
+.hot-sale-body-right{
+    width: 275px;
+    height: 410px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.hot-sale-body-right .hot-sale-body-right-title-active{
+    display: inline-block;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+}
+.hot-sale-body-right-title{
+    display: inline-block;
+    color: #9f9f9f;
+    margin-left: 10px;
+}
+.hot-sale-body-right li{
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 10px;
+}
+.hot-sale-body-right-list li:last-child{
+    border: none;
+}
+.hot-sale-body-right-list strong{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+}
+.hot-sale-body-right-list{
+    margin-top: 20px;
+    display: none;
+}
+.hot-sale-body-right .hot-sale-body-right-list-date{
+    display: block;
+}
+.hot-sale-body-right-list .hot-sale-body-right-list-strong-active{
+    display: none;
+}
+.hot-sale-body-right-list p{
+    display: none;
+}
+
+.hot-sale-body-right-li-active a{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.hot-sale-body-right li img{
+    width: 80px;
+    height: 70px;
+}
+.hot-sale-body-right-list .hot-sale-body-right-li-active{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.hot-sale-body-right-list-text{
+    width: 135px;
+}
+.hot-sale-body-right-list-text span{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #7b7b7b;
+}
+.hot-sale-body-right-list-text span strong{
+    font-size: 20px;
+    color: #333;
+}
+.hot-sale-body-right-list li:first-child a:first-child{
+    position: relative;
+}
+.hot-sale-body-right-list span.first-sales{
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+    font-size: 12px;
+    right: 8px;
+    top: 0;
+}
+.hot-sale-body-right-list span.first-sales:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 15px;
+    height: 10px;
+    border: 7px solid;
+    border-color: transparent transparent white transparent ;
+}
+
+.brand-title{
+    width: 1130px;
+    margin: 0 auto 50px;
+}
+.brand-title-left{
+    width: 565px;
+    height: 275px;
+    background: url("../img/hotsellnan2.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.brand-title-right{
+    width: 565px;
+    height: 275px;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.brand-title-right h2{
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 18px;
+}
+.brand-title-right p{
+    width: 495px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #808080;
+    margin-bottom: 50px;
+}
+.brand-title-right a{
+    display: block;
+    width: 325px;
+    height: 60px;
+    color: #333;
+    font-size: 24px;
+    text-indent: 2em;
+    border: 1px solid #6b6b6b;
+    line-height: 60px;
+}
+.brand-title-right span{
+    display: inline-block;
+    font-size: 18px;
+}
+.brand-title-right a:hover{
+    border-color: #999;
+    color: #999;
+}
+.brand-body-one{
+    width: 285px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+}
+.brand-body-one:last-child{
+    margin-right: 0;
+}
+.brand-body-one-bgc{
+    background: url("../img/brand1.jpg") no-repeat;
+}
+.brand-body-two-bgc{
+    background: url("../img/brand2.jpg") no-repeat;
+}
+.brand-body-three-bgc{
+    background: url("../img/brand3.jpg") no-repeat;
+}
+.brand-body-fore-bgc{
+    background: url("../img/brand4.jpg") no-repeat;
+}
+.brand-bgc{
+    width: 100%;
+    height: 170px;
+    background-size: cover;
+    background-position-x: -20px;
+    position: relative;
+}
+
+.brand-body .brand-bgc a{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #ebecec;
+    color: #333;
+    font-size: 12px;
+    text-indent: 2em;
+    line-height: 20px;
+}
+.brand-body .brand-bgc a img{
+    position: absolute;
+    width: 15px;
+    height: 13px;
+    left: 7px;
+    top: 3px;
+}
+.brand-body-one-text{
+    height: 80px;
+    background-color: #fff;
+}
+.brand-body-one h2{
+    font-size: 24px;
+    text-align: center;
+    line-height: 48px;
+    color: #333;
+}
+.brand-body-one span{
+    display: block;
+    font-size: 14px;
+    color: #808080;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,373 @@
+/* 1. 公共属性样式 */
+
+/* 通栏 */
+.container-fluid{ min-width: 1200px;}
+
+/* 版心 */
+.container{ width: 1200px; margin: 0 auto;}
+
+/* 测试工具 */
+.bd{ border: 1px solid red;}
+
+/* 浮动 */
+.fl{ float: left;}
+.fr{ float: right;}
+.clearfix::after{ content: ''; height: 0; display: block; clear: both;}
+
+/* 定位 */
+.pr{ position: relative;}
+.pa{ position: absolute;}
+.pf{ position: fixed;}
+
+/* bg-color */
+.bgc25{ background-color: #252525;}
+.bgc14{ background-color: #141414;}
+.bgc00b262{ background-color: #00b262 !important;}
+.bgc7a45e5{background-color: #7a45e5 !important;}
+.bgcf770cf{ background-color: #f770cf !important;}
+
+/* margin */
+.ml20{ margin-left: 20px;}
+.mt30{ margin-top: 30px;}
+.mtb30{ margin: 30px 0;}
+.mtb20{ margin: 20px 0;}
+.mr10{ margin-right: 10px;}
+
+
+/* color */
+.c15bded{ color:#15bded }
+
+
+
+/* padding */
+.ptb25{ padding: 25px 0;}
+
+
+
+
+
+/* 2. 公共模块样式 */
+.tong{
+    min-width: 1200px;
+    height: 40px;
+    background-color: #000;
+}
+.header-top{
+    line-height: 40px;
+}
+
+.header-top .web{
+    font-size: 14px;
+    color: white;
+}
+.header-top .tell{
+    font-size: 16px;
+    color: white;
+}
+.header-top span{
+    color: #ff9c00;
+    cursor: pointer;
+}
+.header-cen-right{
+    margin-right: 50px;
+}
+.header-cen .logo{
+    margin-left: 30px;
+    margin-top: 14px;
+}
+
+.header-cen-right .search{
+    width: 490px;
+    margin-top: 25px;
+}
+
+.header-cen-right .search-input{
+    width: 430px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid #feb80f;
+    border-right: none;
+    border-radius: 0;
+    padding-left: 10px;
+}
+.header-cen-right .search-btn{
+    width: 60px;
+    height: 35px;
+    background-color: #feb80f;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+.header-cen-right .search-btn img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.search-input::placeholder{
+    font-size: 14px;
+    color: #d9d9d9;
+}
+
+.shop-car{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 130px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid #dadada;
+    background-color: #fff;
+    border-radius: 5px;
+    color:  #feb80f;
+    font-size: 14px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.shop-car:hover{
+    border-color: #feb80f;
+}
+.shop-car img{
+    width: 22px;
+    height: 20px;
+    margin-left: 16px;
+    margin-right: 13px;
+}
+.shop-car a{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #feb80f;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.order{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 17px;
+    width: 130px;
+    height: 35px;
+    border: 1px solid #dadada;
+    background-color: #fff;
+    border-radius: 5px;
+    color:  #dadada;
+    font-size: 14px;
+    line-height: 35px;
+    box-sizing: border-box;
+    padding-left: 35px;
+    cursor: pointer;
+}
+.order:hover{
+    border-color: #feb80f;
+    color: #feb80f;
+}
+.head-menu{
+    margin-top: 25px;
+}
+.head-menu span{
+    font-size: 16px;
+    margin-right: 24px;
+    color: #9f9f9f;
+    cursor: pointer;
+    font-weight: bold;
+}
+.head-menu span:nth-child(1){
+    color: #feb80f;
+}
+
+/*边栏辅助按钮*/
+.left-fixed_btn{
+    position: fixed;
+    right: 50%;
+    transform: translateX(-668px) translateY(150px);
+    width: 35px;
+}
+.left-fixed_btn img, .left-fixed_btn a{
+    width: 35px;
+    height: 35px;
+}
+.left-fixed_btn a{
+    display: inline-block;
+    position: relative;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.left-fixed_btn span{
+    display: inline-block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(200, 255, 150);
+    opacity: .5;
+    position: absolute;
+    left: 35px;
+    top: 0;
+    transition: all 800ms;
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+    font-size: 14px;
+}
+.left-fixed_btn a:hover span{
+    left: 0;
+}
+#gotop{
+    display: none;
+}
+.install{
+    width: 110px;
+    height: 155px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(620px) translateY(100px);
+    background-color: #fff;
+}
+.install span{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    line-height: 32px;
+    padding-bottom: 7px;
+    border-bottom: 1px #d3d3d3 dashed;
+}
+.install a img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.install a{
+    width: 100%;
+    display: inline-block;
+    line-height: 20px;
+}
+
+
+/* foot */
+.footer{
+    background-color: #fff;
+    margin-top: 60px;
+    padding-top: 50px;
+}
+
+.credibility{
+    height: 96px;
+    border-bottom: 1px solid #dadada;
+    padding-left: 30px;
+}
+
+.footer-credibility{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.footer-credibility-box{
+    display: inline-block;
+    height: 66px;
+    width: 280px;
+    border-right: 2px solid #ccc;
+
+}
+
+.footer-credibility-span{
+    display: block;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.footer-credibility-photo{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-credibility-text{
+    font-size: 14px;
+    color: #9f9f9f;
+}
+.footer-nav-left{
+    margin-top: 30px;
+}
+.footer-nav-left-text{
+    width: 130px;
+    margin-right: 70px;
+}
+.footer-head{
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    line-height: 34px;
+}
+.footer-body{
+    display: block;
+    color: #808080;
+    line-height: 27px;
+}
+.footer-credibility-contact{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.erWeiMa{
+    width: 100px;
+    height: 120px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.erWeiMa img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+.footer-text{
+    margin: 0 auto;
+    width: 900px;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: #808080;
+}
+.footer-text-photo{
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+}
+.footer-text-photo .photo{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.footer-text-photo img{
+    margin-left: 5px;
+    height: 31px;
+    width: 90px;
+}
+
+.code-list{
+    display: none;
+}
+.on{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
